@@ -1,0 +1,111 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: black;
+    overflow-x: hidden;
+}
+
+header {
+    background-color: rgb(3, 3, 3);
+    color: #ece0e0;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+header nav ul li {
+    margin-left: 10px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.hero {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.hero img {
+    width: 50%;
+    height: auto;
+}
+
+.hero-text {
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+}
+
+.sobre, .streamers, .contato {
+    padding: 40px 20px;
+    text-align: center;
+    color: #fff;
+}
+
+.sobre img, .team-member img {
+    width: 100%;
+    max-width: 900px;
+    height: auto;
+    margin-top: 20px;
+}
+
+
+.streamers .team-member img {
+    width: 150px; 
+    height: auto; 
+    object-fit: cover; 
+    border-radius: 10px; 
+}
+
+.streamers .team-member {
+    display: inline-block;
+    margin: 20px;
+    text-align: center;
+    width: 250px; 
+}
+
+.contato form {
+    max-width: 400px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    color: #fff;
+}
+
+.contato label {
+    margin: 10px  5px;
+}
+
+.contato input, .contato button {
+    padding: 10px;
+    margin-bottom: 18px;
+}
+
+footer {
+    background-color: #000000;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
